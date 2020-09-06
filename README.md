@@ -20,3 +20,13 @@ Please follow the below instructions on how to submit your answers.
 Given the following dataset in `ClusterPlot.csv`, determine the number of clusters by using any clustering algorithm. **You're allowed to use any Python library you want to implement this**, just document which ones you used in this README file. Try to complete this as soon as possible.
 
 Regardless if you can or cannot answer the question, provide a short explanation of how you got your solution or how you think it can be solved in your README.md file.
+
+<b>
+My Explanation
+</b>
+<i>
+To solve this problem, I first researched what a cluster is considered formally. After some searching, I decided to use a centroid-based definition so I could use k-means clustering 
+in my solution (fairly fast when compared to other options). I then discovered the Average Silhouette method, which determines the most appropriate number of clusters for a data set.
+I used sklearn for easy implementation of this method and pandas to transfer the spreadsheet's data to a more useful format. The solution found is the same as the intuitive solution 
+(seems to be 2 clusters from the scatterplot).
+</i>

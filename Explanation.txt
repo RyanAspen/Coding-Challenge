@@ -1,9 +1,0 @@
-This is what I did:
-- Cloned Code Challenge 
-- Installed Python for VS
-- Researched definition of a cluster -> using idea of hierarchical clustering (points are more related to closer points than farther ones)
-- Researched algorithms for hierarchical clustering -> Determined that these algorithms will be too slow to work well
-- Now using k-means clustering 
-- Found Average Silhouette Method 
-- Researched libraries/methods to implement K-Means Clustering/Silhouette Method -> Found sklearn
-- Began preliminary coding
